@@ -1,6 +1,6 @@
 <?php require "./header.php"; ?>
-<link href="./navbar.css" rel="stylesheet">
-<link href="./signin.css" rel="stylesheet">
+<link href="./css/navbar.css" rel="stylesheet">
+<link href="./css/signin.css" rel="stylesheet">
 </head>
 
 <body class="bg-dark">
@@ -32,7 +32,7 @@
 
             <div class="checkbox mb-3 text-secondary">
                 <label>
-                    <input type="checkbox" value="remember-me"> Remember me
+                    <input type="checkbox" value="tos"> I agree to the <a href="./tos.php" class="text-decoration-none text-primary">Terms of Service</a>
                 </label>
             </div>
             <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>

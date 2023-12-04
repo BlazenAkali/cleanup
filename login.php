@@ -1,6 +1,6 @@
 <?php require "./header.php"; ?>
-<link href="./navbar.css" rel="stylesheet">
-<link href="./signin.css" rel="stylesheet">
+<link href="./css/navbar.css" rel="stylesheet">
+<link href="./css/signin.css" rel="stylesheet">
 </head>
 
 <body class="bg-dark">
