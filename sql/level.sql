@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 05, 2023 at 02:49 PM
+-- Generation Time: Dec 05, 2023 at 02:51 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -33,6 +33,15 @@ CREATE TABLE `level` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Dumping data for table `level`
+--
+
+INSERT INTO `level` (`level_id`, `level_no`) VALUES
+(1, 1),
+(2, 2),
+(3, 3);
+
+--
 -- Indexes for dumped tables
 --
 
@@ -50,7 +59,7 @@ ALTER TABLE `level`
 -- AUTO_INCREMENT for table `level`
 --
 ALTER TABLE `level`
-  MODIFY `level_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `level_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
