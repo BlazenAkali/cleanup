@@ -10,7 +10,7 @@
     <main class="form-signin text-center">
         <form>
             <img class="mb-4" src="https://github.com/twbs.png" alt="" width="72" height="72">
-            <h1 class="display-6 mb-3 fw-normal text-light">Please Sign in</h1>
+            <h1 class="display-6 mb-3 fw-normal text-light">Please Register</h1>
 
             <div class="form-floating">
                 <input type="email" class="form-control" id="floatingInput" placeholder="JohnDoe">
